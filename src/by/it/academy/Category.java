@@ -1,2 +1,4 @@
-package by.it.academy;public class Category {
+package by.it.academy;
+
+public record Category (String name, Good[] goods) {
 }
